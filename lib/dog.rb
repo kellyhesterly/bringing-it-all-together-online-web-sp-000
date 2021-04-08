@@ -36,5 +36,8 @@ class Dog
   end
 
   def self.update
+    dog = self.new(name:, breed:)
+    dog.save
+    dog
   end
 end
