@@ -35,7 +35,7 @@ class Dog
     end
   end
 
-  def self.update
+  def self.update(name:, breed:)
     dog = self.new(name, breed)
     dog.save
     dog
