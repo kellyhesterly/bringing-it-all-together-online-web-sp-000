@@ -36,7 +36,7 @@ class Dog
   end
 
   def self.update
-    dog = self.new(id:, name:, breed:)
+    dog = self.new(id: nil, name:, breed:)
     dog.save
     dog
   end
